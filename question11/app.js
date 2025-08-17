@@ -1,7 +1,7 @@
 let percentage = 23;
 let isfinalyear = false;
 let grade = 0;
-
+// Check percentage and assign grade accordingly
 if (percentage >= 90) {
     grade = "A";
 }
@@ -17,6 +17,7 @@ else if (percentage >= 60) {
 else if (percentage >= 50) {
     grade = "E";
 }
+// Final year students in this range can apply for re-evaluation
 else
     if (percentage > 45) {
         if (isfinalyear) {
@@ -29,6 +30,6 @@ else
     else {
         grade = "fail";
     }
-
+// Print the results
 console.log(`percentage:${percentage}`);
 console.log(`grade:${grade}`);
