@@ -1,7 +1,6 @@
 let temperature=20;
 let weather;
 let israining=true;
-
 // Decide weather condition based on temperature
 if(temperature>40){
 weather="extremelyhot";
