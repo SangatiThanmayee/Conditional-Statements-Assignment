@@ -1,7 +1,6 @@
 let experience=1;
 let isdecember=true;
 let bonus=0;
-
 if(experience>15){
     bonus=50000;
     }
